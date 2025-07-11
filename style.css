@@ -3,20 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* fonts style */
+
 body {
     font-family: "Inter","Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: rgb(245, 248, 255);
 }
-/* header section */
+
 header {
     background-image: url(/Assets/Hero-bg.png);
     background-size: contain;
     width: 100%;
 }
-/* navbar style */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,12 +24,12 @@ header {
     padding: 15px 30px;
     color: #4E47FF;
 }
-/* logo style */
+
 .logo {
     font-size: 1.5em;
     font-weight: bold;
 }
-/* signup button style */
+
 .signup-btn {
     background-color: #4E47FF;
     color: white;
@@ -45,7 +45,7 @@ header {
 .signup-btn:hover {
     background-color: #3a3a9d;
 }
-/* banner section style */
+
 .banner {
     height: 80vh;
     display: flex;
@@ -74,7 +74,7 @@ header {
 .focus-btn:hover {
     background-color: #3a3a9d;
 }
-/* action part style */
+
 .action {
     display: flex;
     gap: 158px;
@@ -98,7 +98,7 @@ header {
     margin-bottom: 20px;
     color: #25243265 ;
 }
-/* preview button style */
+
 .preview-btn {
     background-color: #4E47FF;
     color: white;
@@ -112,7 +112,7 @@ header {
 .preview-btn:hover {
     background-color: #3a3a9d;
 }
-/* action right  */
+
 .action-right {
     flex: 1;
     text-align: right;
@@ -127,7 +127,7 @@ main {
     margin: 100px;
     padding: 20px;
 }
-/* productive users section */
+
 .productive-users {
     background-color: #E5E7FF;
     padding: 50px 20px;
@@ -167,7 +167,6 @@ main {
     border-radius: 24px;
     color: #25243265;
 }
-/* card styles */
 
 .feedback h2 {
 text-align: center;
@@ -225,7 +224,6 @@ margin: 100px 0 50px 0;
     text-align: left;
 
 }
-/*  get in touch section styles  */
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -276,7 +274,7 @@ input, textarea {
     background-color: #3a3a9d;;
 }
 
-/* footer section*/
+
 footer {
     margin-bottom: 100px;
 }
